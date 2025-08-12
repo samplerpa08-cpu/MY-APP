@@ -1,0 +1,35 @@
+{
+  "name": "tour-plan-management-app",
+  "version": "1.0.0",
+  "description": "Mobile-first weekly tour plan management app with Google Sheets backend",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "google-spreadsheet": "^4.1.2"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "keywords": [
+    "tour-planning",
+    "mobile-app",
+    "google-sheets",
+    "netlify",
+    "pwa"
+  ],
+  "author": "Tour Plan Management Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/tour-plan-app.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
